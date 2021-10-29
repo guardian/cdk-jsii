@@ -1,0 +1,33 @@
+{
+  "name": "cdk-go",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "description": "Generic Guardian flavoured AWS CDK components",
+  "repository": "github.com/guardian/cdk-go",
+  "author": {
+    "name": "Platform Engineering",
+    "email": "devx.sec.ops@guardian.co.uk"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "jsii",
+    "build:watch": "jsii --watch",
+    "package": "jsii-pacmak"
+  },
+  "keywords": [],
+  "stability": "experimental",
+  "types": "index.d.ts",
+  "jsii": {
+    "versionFormat": "full",
+    "targets": {
+      "go": {
+        "packageName": "cdk",
+        "moduleName": "github.com/guardian/cdk"
+      }
+    }
+  },
+  "devDependencies": {
+    "jsii": "^1.41.0",
+    "jsii-pacmak": "^1.41.0"
+  }
+}
