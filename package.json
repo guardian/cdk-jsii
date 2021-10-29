@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "jsii",
+    "build": "jsii -v",
     "build:watch": "jsii --watch",
     "package": "jsii-pacmak"
   },
