@@ -24,6 +24,13 @@
       "go": {
         "packageName": "cdk",
         "moduleName": "github.com/guardian/cdk"
+      },
+      "java": {
+        "package": "com.gu.cdk",
+        "maven": {
+          "groupId": "com.gu",
+          "artifactId": "cdk"
+        }
       }
     }
   },

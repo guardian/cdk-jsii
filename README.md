@@ -15,6 +15,10 @@ https://docs.google.com/document/d/1RAqOjN0o7iegkW-tT-uY27mFHVi2rmxMHwjgSugJnBw/
 
     $ nvm use
     $ npm -i
-    $ npm run build
+    $ npm run build:watch
+
+To package, run:
+
+    $ npm run build; npm run package
 
 See `npm run` for further scripts (or look in package.json).

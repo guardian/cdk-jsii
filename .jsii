@@ -31,9 +31,12 @@
   },
   "schema": "jsii/0.10.0",
   "targets": {
-    "go": {
-      "moduleName": "github.com/guardian/cdk",
-      "packageName": "cdk"
+    "java": {
+      "maven": {
+        "artifactId": "cdk",
+        "groupId": "com.gu"
+      },
+      "package": "com.gu.cdk"
     },
     "js": {
       "npm": "cdk-go"
@@ -122,5 +125,5 @@
     }
   },
   "version": "1.0.0",
-  "fingerprint": "BZ6N/VOiMIWGL1b+tKpjOzbfFnHfcWWvbieXmIVeLlE="
+  "fingerprint": "WheU76X9ZEhzydqeb5tUaRAlWgzHmmoXiEVwE5cWpYY="
 }
