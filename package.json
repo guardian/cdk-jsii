@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "description": "Generic Guardian flavoured AWS CDK components",
-  "repository": "github.com/guardian/cdk-go",
+  "repository": "github:guardian/cdk-go",
   "author": {
     "name": "Platform Engineering",
     "email": "devx.sec.ops@guardian.co.uk"
@@ -18,6 +18,7 @@
   "stability": "experimental",
   "types": "index.d.ts",
   "jsii": {
+    "outdir": "dist",
     "versionFormat": "full",
     "targets": {
       "go": {

@@ -1,0 +1,126 @@
+{
+  "author": {
+    "email": "devx.sec.ops@guardian.co.uk",
+    "name": "Platform Engineering",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "Generic Guardian flavoured AWS CDK components",
+  "docs": {
+    "stability": "experimental"
+  },
+  "homepage": "https://github.com/guardian/cdk-go.git",
+  "jsiiVersion": "1.41.0 (build a274beb)",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "cdk-go",
+  "readme": {
+    "markdown": "# @guardian/cdk (with JSII)\n\n_[jsii](https://aws.github.io/jsii/) allows code in any language to naturally\ninteract with JavaScript classes. It is the technology that enables the AWS\nCloud Development Kit to deliver polyglot libraries from a single codebase!_\n\nThe aim of this spike is to see if JSII can be used for @guardian/cdk to\nintroduce support for other languages, in particular Go and Java (for Scala\nprojects).\n\nA fuller document on this is here:\nhttps://docs.google.com/document/d/1RAqOjN0o7iegkW-tT-uY27mFHVi2rmxMHwjgSugJnBw/edit#.\n\n## Development\n\n    $ nvm use\n    $ npm -i\n    $ npm run build\n\nSee `npm run` for further scripts (or look in package.json).\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guardian/cdk-go.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "go": {
+      "moduleName": "github.com/guardian/cdk",
+      "packageName": "cdk"
+    },
+    "js": {
+      "npm": "cdk-go"
+    }
+  },
+  "types": {
+    "cdk-go.Greeter": {
+      "assembly": "cdk-go",
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "cdk-go.Greeter",
+      "initializer": {
+        "docs": {
+          "stability": "experimental"
+        },
+        "locationInModule": {
+          "filename": "index.ts",
+          "line": 8
+        },
+        "parameters": [
+          {
+            "name": "props",
+            "type": {
+              "fqn": "cdk-go.GreeterProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 5
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "experimental"
+          },
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 12
+          },
+          "name": "greet",
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "Greeter",
+      "symbolId": "index:Greeter"
+    },
+    "cdk-go.GreeterProps": {
+      "assembly": "cdk-go",
+      "datatype": true,
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "cdk-go.GreeterProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 1
+      },
+      "name": "GreeterProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "experimental"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 2
+          },
+          "name": "greetee",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "index:GreeterProps"
+    }
+  },
+  "version": "1.0.0",
+  "fingerprint": "BZ6N/VOiMIWGL1b+tKpjOzbfFnHfcWWvbieXmIVeLlE="
+}
