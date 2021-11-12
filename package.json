@@ -1,9 +1,9 @@
 {
-  "name": "cdk-go",
+  "name": "cdk-jsii",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "description": "Generic Guardian flavoured AWS CDK components",
-  "repository": "github:guardian/cdk-go",
+  "repository": "github:guardian/cdk-jsii",
   "author": {
     "name": "Platform Engineering",
     "email": "devx.sec.ops@guardian.co.uk"
